@@ -60,7 +60,7 @@ function Handle_Operator(Next_Operator) {
         const result = Perform_Calculation[operator] (Value_Now, Value_of_Input);
 
         Calculator.Display_Value = String(result);
-        caches.First_Operand = result;
+        Calculator.First_Operand = result;
     }
 
     Calculator.Wait_Second_Operand =  true;
